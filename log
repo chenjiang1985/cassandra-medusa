@@ -1,0 +1,878 @@
+running install
+running bdist_egg
+running egg_info
+writing medusa.egg-info/PKG-INFO
+writing dependency_links to medusa.egg-info/dependency_links.txt
+writing entry points to medusa.egg-info/entry_points.txt
+writing requirements to medusa.egg-info/requires.txt
+writing top-level names to medusa.egg-info/top_level.txt
+reading manifest file 'medusa.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'medusa.egg-info/SOURCES.txt'
+installing library code to build/bdist.macosx-10.14-x86_64/egg
+running install_lib
+running build_py
+creating build/bdist.macosx-10.14-x86_64/egg
+creating build/bdist.macosx-10.14-x86_64/egg/medusa
+copying build/lib/medusa/restore_node.py -> build/bdist.macosx-10.14-x86_64/egg/medusa
+copying build/lib/medusa/backup.py -> build/bdist.macosx-10.14-x86_64/egg/medusa
+copying build/lib/medusa/config.py -> build/bdist.macosx-10.14-x86_64/egg/medusa
+copying build/lib/medusa/index.py -> build/bdist.macosx-10.14-x86_64/egg/medusa
+copying build/lib/medusa/fetch_tokenmap.py -> build/bdist.macosx-10.14-x86_64/egg/medusa
+copying build/lib/medusa/restore_cluster.py -> build/bdist.macosx-10.14-x86_64/egg/medusa
+copying build/lib/medusa/download.py -> build/bdist.macosx-10.14-x86_64/egg/medusa
+copying build/lib/medusa/__init__.py -> build/bdist.macosx-10.14-x86_64/egg/medusa
+copying build/lib/medusa/purge.py -> build/bdist.macosx-10.14-x86_64/egg/medusa
+copying build/lib/medusa/listing.py -> build/bdist.macosx-10.14-x86_64/egg/medusa
+creating build/bdist.macosx-10.14-x86_64/egg/medusa/storage
+copying build/lib/medusa/storage/concurrent.py -> build/bdist.macosx-10.14-x86_64/egg/medusa/storage
+copying build/lib/medusa/storage/cluster_backup.py -> build/bdist.macosx-10.14-x86_64/egg/medusa/storage
+copying build/lib/medusa/storage/node_backup.py -> build/bdist.macosx-10.14-x86_64/egg/medusa/storage
+creating build/bdist.macosx-10.14-x86_64/egg/medusa/storage/google_cloud_storage
+copying build/lib/medusa/storage/google_cloud_storage/__init__.py -> build/bdist.macosx-10.14-x86_64/egg/medusa/storage/google_cloud_storage
+copying build/lib/medusa/storage/google_cloud_storage/gsutil.py -> build/bdist.macosx-10.14-x86_64/egg/medusa/storage/google_cloud_storage
+copying build/lib/medusa/storage/google_storage.py -> build/bdist.macosx-10.14-x86_64/egg/medusa/storage
+copying build/lib/medusa/storage/__init__.py -> build/bdist.macosx-10.14-x86_64/egg/medusa/storage
+copying build/lib/medusa/storage/local_storage.py -> build/bdist.macosx-10.14-x86_64/egg/medusa/storage
+copying build/lib/medusa/storage/s3_storage.py -> build/bdist.macosx-10.14-x86_64/egg/medusa/storage
+copying build/lib/medusa/storage/abstract_storage.py -> build/bdist.macosx-10.14-x86_64/egg/medusa/storage
+copying build/lib/medusa/medusacli.py -> build/bdist.macosx-10.14-x86_64/egg/medusa
+copying build/lib/medusa/verify.py -> build/bdist.macosx-10.14-x86_64/egg/medusa
+copying build/lib/medusa/verify_restore.py -> build/bdist.macosx-10.14-x86_64/egg/medusa
+creating build/bdist.macosx-10.14-x86_64/egg/medusa/monitoring
+copying build/lib/medusa/monitoring/abstract.py -> build/bdist.macosx-10.14-x86_64/egg/medusa/monitoring
+copying build/lib/medusa/monitoring/local.py -> build/bdist.macosx-10.14-x86_64/egg/medusa/monitoring
+copying build/lib/medusa/monitoring/__init__.py -> build/bdist.macosx-10.14-x86_64/egg/medusa/monitoring
+copying build/lib/medusa/monitoring/noop.py -> build/bdist.macosx-10.14-x86_64/egg/medusa/monitoring
+copying build/lib/medusa/monitoring/ffwd.py -> build/bdist.macosx-10.14-x86_64/egg/medusa/monitoring
+copying build/lib/medusa/cassandra_utils.py -> build/bdist.macosx-10.14-x86_64/egg/medusa
+copying build/lib/medusa/report_latest.py -> build/bdist.macosx-10.14-x86_64/egg/medusa
+copying build/lib/medusa/status.py -> build/bdist.macosx-10.14-x86_64/egg/medusa
+copying build/lib/medusa/schema.py -> build/bdist.macosx-10.14-x86_64/egg/medusa
+creating build/bdist.macosx-10.14-x86_64/egg/tests
+copying build/lib/tests/cassandra_utils_test.py -> build/bdist.macosx-10.14-x86_64/egg/tests
+copying build/lib/tests/purge_test.py -> build/bdist.macosx-10.14-x86_64/egg/tests
+copying build/lib/tests/schema_test.py -> build/bdist.macosx-10.14-x86_64/egg/tests
+creating build/bdist.macosx-10.14-x86_64/egg/tests/integration
+creating build/bdist.macosx-10.14-x86_64/egg/tests/integration/features
+copying build/lib/tests/integration/features/__init__.py -> build/bdist.macosx-10.14-x86_64/egg/tests/integration/features
+creating build/bdist.macosx-10.14-x86_64/egg/tests/integration/features/steps
+copying build/lib/tests/integration/features/steps/integration_steps.py -> build/bdist.macosx-10.14-x86_64/egg/tests/integration/features/steps
+copying build/lib/tests/integration/features/steps/__init__.py -> build/bdist.macosx-10.14-x86_64/egg/tests/integration/features/steps
+copying build/lib/tests/integration/features/environment.py -> build/bdist.macosx-10.14-x86_64/egg/tests/integration/features
+copying build/lib/tests/integration/__init__.py -> build/bdist.macosx-10.14-x86_64/egg/tests/integration
+copying build/lib/tests/restore_node_test.py -> build/bdist.macosx-10.14-x86_64/egg/tests
+copying build/lib/tests/__init__.py -> build/bdist.macosx-10.14-x86_64/egg/tests
+copying build/lib/tests/storage_test.py -> build/bdist.macosx-10.14-x86_64/egg/tests
+copying build/lib/tests/restore_cluster_test.py -> build/bdist.macosx-10.14-x86_64/egg/tests
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/restore_node.py to restore_node.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/backup.py to backup.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/config.py to config.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/index.py to index.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/fetch_tokenmap.py to fetch_tokenmap.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/restore_cluster.py to restore_cluster.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/download.py to download.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/purge.py to purge.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/listing.py to listing.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/storage/concurrent.py to concurrent.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/storage/cluster_backup.py to cluster_backup.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/storage/node_backup.py to node_backup.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/storage/google_cloud_storage/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/storage/google_cloud_storage/gsutil.py to gsutil.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/storage/google_storage.py to google_storage.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/storage/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/storage/local_storage.py to local_storage.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/storage/s3_storage.py to s3_storage.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/storage/abstract_storage.py to abstract_storage.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/medusacli.py to medusacli.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/verify.py to verify.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/verify_restore.py to verify_restore.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/monitoring/abstract.py to abstract.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/monitoring/local.py to local.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/monitoring/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/monitoring/noop.py to noop.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/monitoring/ffwd.py to ffwd.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/cassandra_utils.py to cassandra_utils.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/report_latest.py to report_latest.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/status.py to status.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/medusa/schema.py to schema.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/tests/cassandra_utils_test.py to cassandra_utils_test.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/tests/purge_test.py to purge_test.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/tests/schema_test.py to schema_test.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/tests/integration/features/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/tests/integration/features/steps/integration_steps.py to integration_steps.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/tests/integration/features/steps/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/tests/integration/features/environment.py to environment.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/tests/integration/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/tests/restore_node_test.py to restore_node_test.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/tests/__init__.py to __init__.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/tests/storage_test.py to storage_test.cpython-37.pyc
+byte-compiling build/bdist.macosx-10.14-x86_64/egg/tests/restore_cluster_test.py to restore_cluster_test.cpython-37.pyc
+installing package data to build/bdist.macosx-10.14-x86_64/egg
+running install_data
+creating build/bdist.macosx-10.14-x86_64/egg/EGG-INFO
+installing scripts to build/bdist.macosx-10.14-x86_64/egg/EGG-INFO/scripts
+running install_scripts
+running build_scripts
+creating build/bdist.macosx-10.14-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.7/medusa-wrapper -> build/bdist.macosx-10.14-x86_64/egg/EGG-INFO/scripts
+changing mode of build/bdist.macosx-10.14-x86_64/egg/EGG-INFO/scripts/medusa-wrapper to 755
+copying medusa.egg-info/PKG-INFO -> build/bdist.macosx-10.14-x86_64/egg/EGG-INFO
+copying medusa.egg-info/SOURCES.txt -> build/bdist.macosx-10.14-x86_64/egg/EGG-INFO
+copying medusa.egg-info/dependency_links.txt -> build/bdist.macosx-10.14-x86_64/egg/EGG-INFO
+copying medusa.egg-info/entry_points.txt -> build/bdist.macosx-10.14-x86_64/egg/EGG-INFO
+copying medusa.egg-info/requires.txt -> build/bdist.macosx-10.14-x86_64/egg/EGG-INFO
+copying medusa.egg-info/top_level.txt -> build/bdist.macosx-10.14-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating 'dist/medusa-0.1.0-py3.7.egg' and adding 'build/bdist.macosx-10.14-x86_64/egg' to it
+removing 'build/bdist.macosx-10.14-x86_64/egg' (and everything under it)
+Processing medusa-0.1.0-py3.7.egg
+Removing /usr/local/lib/python3.7/site-packages/medusa-0.1.0-py3.7.egg
+Copying medusa-0.1.0-py3.7.egg to /usr/local/lib/python3.7/site-packages
+medusa 0.1.0 is already the active version in easy-install.pth
+Installing medusa-wrapper script to /usr/local/bin
+Installing medusa script to /usr/local/bin
+
+Installed /usr/local/lib/python3.7/site-packages/medusa-0.1.0-py3.7.egg
+Processing dependencies for medusa==0.1.0
+Searching for PyYAML==3.10
+Reading https://pypi.org/simple/PyYAML/
+Downloading https://files.pythonhosted.org/packages/e4/a4/6c1f6c989d97c62ea50329b3803ca214ccfed7e4c1f82fe30c6e048645a0/PyYAML-3.10.zip#sha256=4a612876bfac22be403a39cbff64b8aac7ce3fed4c11778c59f79232943b22e4
+Best match: PyYAML 3.10
+Processing PyYAML-3.10.zip
+Writing /tmp/easy_install-6np1_ape/PyYAML-3.10/setup.cfg
+Running PyYAML-3.10/setup.py -q bdist_egg --dist-dir /tmp/easy_install-6np1_ape/PyYAML-3.10/egg-dist-tmp-g1xc6qa6
+In file included from ext/_yaml.c:223:
+ext/_yaml.h:10:9: warning: 'PyString_CheckExact' macro redefined [-Wmacro-redefined]
+#define PyString_CheckExact PyBytes_CheckExact
+        ^
+ext/_yaml.c:109:11: note: previous definition is here
+  #define PyString_CheckExact          PyUnicode_CheckExact
+          ^
+ext/_yaml.c:1136:14: warning: explicitly assigning value of variable of type 'PyObject *' (aka 'struct _object *') to itself [-Wself-assign]
+  __pyx_self = __pyx_self;
+  ~~~~~~~~~~ ^ ~~~~~~~~~~
+ext/_yaml.c:1145:17: warning: assigning to 'char *' from 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  __pyx_v_value = yaml_get_version_string();
+                ^ ~~~~~~~~~~~~~~~~~~~~~~~~~
+ext/_yaml.c:1170:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L5;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:1222:14: warning: explicitly assigning value of variable of type 'PyObject *' (aka 'struct _object *') to itself [-Wself-assign]
+  __pyx_self = __pyx_self;
+  ~~~~~~~~~~ ^ ~~~~~~~~~~
+ext/_yaml.c:2074:89: warning: incompatible pointer types passing 'int (void *, char *, int, int *)' to parameter of type 'yaml_read_handler_t *' (aka 'int (*)(void *, unsigned char *, unsigned long, unsigned long *)') [-Wincompatible-pointer-types]
+    yaml_parser_set_input((&((struct __pyx_obj_5_yaml_CParser *)__pyx_v_self)->parser), __pyx_f_5_yaml_input_handler, ((void *)__pyx_v_self));
+                                                                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/include/yaml.h:1370:30: note: passing argument to parameter 'handler' here
+        yaml_read_handler_t *handler, void *data);
+                             ^
+ext/_yaml.c:2272:96: warning: passing 'char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    yaml_parser_set_input_string((&((struct __pyx_obj_5_yaml_CParser *)__pyx_v_self)->parser), PyString_AS_STRING(__pyx_v_stream), PyString_GET_SIZE(__pyx_v_stream));
+                                                                                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ext/_yaml.h:11:29: note: expanded from macro 'PyString_AS_STRING'
+#define PyString_AS_STRING  PyBytes_AS_STRING
+                            ^
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/bytesobject.h:87:31: note: expanded from macro 'PyBytes_AS_STRING'
+#define PyBytes_AS_STRING(op) (assert(PyBytes_Check(op)), \
+                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/include/yaml.h:1344:30: note: passing argument to parameter 'input' here
+        const unsigned char *input, size_t size);
+                             ^
+ext/_yaml.c:2230:9: warning: code will never be executed [-Wunreachable-code]
+        goto __pyx_L33;
+        ^~~~~~~~~~~~~~
+ext/_yaml.c:1790:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L6;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:2947:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L11;
+    ^~~~~~~~~~~~~~
+ext/_yaml.c:2884:7: warning: code will never be executed [-Wunreachable-code]
+      goto __pyx_L10;
+      ^~~~~~~~~~~~~~
+ext/_yaml.c:2504:7: warning: code will never be executed [-Wunreachable-code]
+      goto __pyx_L4;
+      ^~~~~~~~~~~~~
+ext/_yaml.c:2433:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:3069:7: warning: code will never be executed [-Wunreachable-code]
+      goto __pyx_L7;
+      ^~~~~~~~~~~~~
+ext/_yaml.c:3196:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:3705:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    __pyx_t_3 = PyUnicode_FromString(__pyx_v_token->data.tag_directive.handle); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 417; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/unicodeobject.h:703:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+ext/_yaml.c:3718:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    __pyx_t_3 = PyUnicode_FromString(__pyx_v_token->data.tag_directive.prefix); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 418; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/unicodeobject.h:703:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+ext/_yaml.c:4285:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    __pyx_t_3 = PyUnicode_FromString(__pyx_v_token->data.alias.value); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 448; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/unicodeobject.h:703:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+ext/_yaml.c:4339:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    __pyx_t_4 = PyUnicode_FromString(__pyx_v_token->data.anchor.value); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 451; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/unicodeobject.h:703:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+ext/_yaml.c:4393:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    __pyx_t_3 = PyUnicode_FromString(__pyx_v_token->data.tag.handle); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 454; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/unicodeobject.h:703:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+ext/_yaml.c:4406:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    __pyx_t_3 = PyUnicode_FromString(__pyx_v_token->data.tag.suffix); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 455; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/unicodeobject.h:703:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+ext/_yaml.c:4493:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    __pyx_t_2 = PyUnicode_DecodeUTF8(__pyx_v_token->data.scalar.value, __pyx_v_token->data.scalar.length, __pyx_k__strict); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 460; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/unicodeobject.h:1299:17: note: passing argument to parameter 'string' here
+    const char *string,         /* UTF-8 encoded string */
+                ^
+ext/_yaml.c:4714:7: warning: code will never be executed [-Wunreachable-code]
+      goto __pyx_L8;
+      ^~~~~~~~~~~~~
+ext/_yaml.c:4688:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:4473:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:4373:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:4319:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:4265:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:4227:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:4189:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:4151:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:4113:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:4075:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:4037:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:3999:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:3961:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:3923:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:3885:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:3847:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:3809:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:3771:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:3685:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:3605:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:3567:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:3432:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:5083:7: warning: code will never be executed [-Wunreachable-code]
+      goto __pyx_L10;
+      ^~~~~~~~~~~~~~
+ext/_yaml.c:5024:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L7;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:4996:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L6;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:5202:7: warning: code will never be executed [-Wunreachable-code]
+      goto __pyx_L7;
+      ^~~~~~~~~~~~~
+ext/_yaml.c:5329:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:5909:42: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        __pyx_t_4 = PyUnicode_FromString(__pyx_v_tag_directive->handle); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 574; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/unicodeobject.h:703:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+ext/_yaml.c:5922:42: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        __pyx_t_4 = PyUnicode_FromString(__pyx_v_tag_directive->prefix); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/unicodeobject.h:703:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+ext/_yaml.c:6088:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    __pyx_t_2 = PyUnicode_FromString(__pyx_v_event->data.alias.anchor); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 586; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/unicodeobject.h:703:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+ext/_yaml.c:6163:40: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+      __pyx_t_1 = PyUnicode_FromString(__pyx_v_event->data.scalar.anchor); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 591; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/unicodeobject.h:703:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+ext/_yaml.c:6200:40: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+      __pyx_t_1 = PyUnicode_FromString(__pyx_v_event->data.scalar.tag); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 594; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/unicodeobject.h:703:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+ext/_yaml.c:6216:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    __pyx_t_1 = PyUnicode_DecodeUTF8(__pyx_v_event->data.scalar.value, __pyx_v_event->data.scalar.length, __pyx_k__strict); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 595; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/unicodeobject.h:1299:17: note: passing argument to parameter 'string' here
+    const char *string,         /* UTF-8 encoded string */
+                ^
+ext/_yaml.c:6520:40: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+      __pyx_t_3 = PyUnicode_FromString(__pyx_v_event->data.sequence_start.anchor); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 620; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/unicodeobject.h:703:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+ext/_yaml.c:6557:40: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+      __pyx_t_3 = PyUnicode_FromString(__pyx_v_event->data.sequence_start.tag); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 623; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/unicodeobject.h:703:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+ext/_yaml.c:6747:40: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+      __pyx_t_2 = PyUnicode_FromString(__pyx_v_event->data.mapping_start.anchor); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 637; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/unicodeobject.h:703:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+ext/_yaml.c:6784:40: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+      __pyx_t_2 = PyUnicode_FromString(__pyx_v_event->data.mapping_start.tag); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 640; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/unicodeobject.h:703:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+ext/_yaml.c:7035:7: warning: code will never be executed [-Wunreachable-code]
+      goto __pyx_L25;
+      ^~~~~~~~~~~~~~
+ext/_yaml.c:7009:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:6971:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:6933:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:6706:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:6479:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:6122:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:6068:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:5994:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:5749:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:5711:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:5576:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:7408:7: warning: code will never be executed [-Wunreachable-code]
+      goto __pyx_L10;
+      ^~~~~~~~~~~~~~
+ext/_yaml.c:7349:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L7;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:7321:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L6;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:7523:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L6;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:7601:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L5;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:7837:7: warning: code will never be executed [-Wunreachable-code]
+      goto __pyx_L7;
+      ^~~~~~~~~~~~~
+ext/_yaml.c:8064:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    __pyx_t_3 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.alias.anchor); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 734; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/unicodeobject.h:703:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+ext/_yaml.c:8284:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    __pyx_t_5 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.scalar.anchor); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 750; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/unicodeobject.h:703:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+ext/_yaml.c:8315:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    __pyx_t_5 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.sequence_start.anchor); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 753; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/unicodeobject.h:703:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+ext/_yaml.c:8346:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    __pyx_t_5 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.mapping_start.anchor); if (unlikely(!__pyx_t_5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 756; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/unicodeobject.h:703:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+ext/_yaml.c:8492:9: warning: code will never be executed [-Wunreachable-code]
+        goto __pyx_L9;
+        ^~~~~~~~~~~~~
+ext/_yaml.c:8246:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:8184:9: warning: code will never be executed [-Wunreachable-code]
+        goto __pyx_L5;
+        ^~~~~~~~~~~~~
+ext/_yaml.c:8861:36: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  __pyx_t_2 = PyUnicode_DecodeUTF8(__pyx_v_self->parsed_event.data.scalar.value, __pyx_v_self->parsed_event.data.scalar.length, __pyx_k__strict); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 791; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/unicodeobject.h:1299:17: note: passing argument to parameter 'string' here
+    const char *string,         /* UTF-8 encoded string */
+                ^
+ext/_yaml.c:9019:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    __pyx_t_9 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.scalar.tag); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 804; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/unicodeobject.h:703:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+ext/_yaml.c:9461:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    __pyx_t_2 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.sequence_start.tag); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 837; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/unicodeobject.h:703:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+ext/_yaml.c:9998:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+    __pyx_t_2 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.mapping_start.tag); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 876; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/unicodeobject.h:703:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+ext/_yaml.c:10414:13: warning: code will never be executed [-Wunreachable-code]
+  __pyx_r = 0;
+            ^
+ext/_yaml.c:10397:7: warning: code will never be executed [-Wunreachable-code]
+      goto __pyx_L4;
+      ^~~~~~~~~~~~~
+ext/_yaml.c:10723:13: warning: code will never be executed [-Wunreachable-code]
+  __pyx_r = 0;
+            ^
+ext/_yaml.c:10558:9: warning: code will never be executed [-Wunreachable-code]
+        goto __pyx_L6;
+        ^~~~~~~~~~~~~
+ext/_yaml.c:11065:91: warning: incompatible pointer types passing 'int (void *, char *, int)' to parameter of type 'yaml_write_handler_t *' (aka 'int (*)(void *, unsigned char *, unsigned long)') [-Wincompatible-pointer-types]
+  yaml_emitter_set_output((&((struct __pyx_obj_5_yaml_CEmitter *)__pyx_v_self)->emitter), __pyx_f_5_yaml_output_handler, ((void *)__pyx_v_self));
+                                                                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/include/yaml.h:1832:31: note: passing argument to parameter 'handler' here
+        yaml_write_handler_t *handler, void *data);
+                              ^
+ext/_yaml.c:10957:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L6;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:11574:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L5;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:11548:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:11472:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L3;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:12199:44: warning: assigning to 'yaml_char_t *' (aka 'unsigned char *') from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        __pyx_v_tag_directives_end->handle = PyString_AS_STRING(__pyx_v_handle);
+                                           ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ext/_yaml.c:12300:44: warning: assigning to 'yaml_char_t *' (aka 'unsigned char *') from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        __pyx_v_tag_directives_end->prefix = PyString_AS_STRING(__pyx_v_prefix);
+                                           ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ext/_yaml.c:12563:61: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    __pyx_t_4 = (yaml_alias_event_initialize(__pyx_v_event, __pyx_v_anchor) == 0);
+                                                            ^~~~~~~~~~~~~~
+/usr/local/include/yaml.h:555:63: note: passing argument to parameter 'anchor' here
+yaml_alias_event_initialize(yaml_event_t *event, yaml_char_t *anchor);
+                                                              ^
+ext/_yaml.c:13168:62: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    __pyx_t_2 = (yaml_scalar_event_initialize(__pyx_v_event, __pyx_v_anchor, __pyx_v_tag, __pyx_v_value, __pyx_v_length, __pyx_v_plain_implicit, __pyx_v_quoted_implicit, __pyx_v_scalar_style) == 0);
+                                                             ^~~~~~~~~~~~~~
+/usr/local/include/yaml.h:581:22: note: passing argument to parameter 'anchor' here
+        yaml_char_t *anchor, yaml_char_t *tag,
+                     ^
+ext/_yaml.c:13168:78: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    __pyx_t_2 = (yaml_scalar_event_initialize(__pyx_v_event, __pyx_v_anchor, __pyx_v_tag, __pyx_v_value, __pyx_v_length, __pyx_v_plain_implicit, __pyx_v_quoted_implicit, __pyx_v_scalar_style) == 0);
+                                                                             ^~~~~~~~~~~
+/usr/local/include/yaml.h:581:43: note: passing argument to parameter 'tag' here
+        yaml_char_t *anchor, yaml_char_t *tag,
+                                          ^
+ext/_yaml.c:13168:91: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    __pyx_t_2 = (yaml_scalar_event_initialize(__pyx_v_event, __pyx_v_anchor, __pyx_v_tag, __pyx_v_value, __pyx_v_length, __pyx_v_plain_implicit, __pyx_v_quoted_implicit, __pyx_v_scalar_style) == 0);
+                                                                                          ^~~~~~~~~~~~~
+/usr/local/include/yaml.h:582:22: note: passing argument to parameter 'value' here
+        yaml_char_t *value, int length,
+                     ^
+ext/_yaml.c:13521:70: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    __pyx_t_2 = (yaml_sequence_start_event_initialize(__pyx_v_event, __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_sequence_style) == 0);
+                                                                     ^~~~~~~~~~~~~~
+/usr/local/include/yaml.h:604:22: note: passing argument to parameter 'anchor' here
+        yaml_char_t *anchor, yaml_char_t *tag, int implicit,
+                     ^
+ext/_yaml.c:13521:86: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    __pyx_t_2 = (yaml_sequence_start_event_initialize(__pyx_v_event, __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_sequence_style) == 0);
+                                                                                     ^~~~~~~~~~~
+/usr/local/include/yaml.h:604:43: note: passing argument to parameter 'tag' here
+        yaml_char_t *anchor, yaml_char_t *tag, int implicit,
+                                          ^
+ext/_yaml.c:13874:69: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    __pyx_t_2 = (yaml_mapping_start_event_initialize(__pyx_v_event, __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_mapping_style) == 0);
+                                                                    ^~~~~~~~~~~~~~
+/usr/local/include/yaml.h:636:22: note: passing argument to parameter 'anchor' here
+        yaml_char_t *anchor, yaml_char_t *tag, int implicit,
+                     ^
+ext/_yaml.c:13874:85: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    __pyx_t_2 = (yaml_mapping_start_event_initialize(__pyx_v_event, __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_mapping_style) == 0);
+                                                                                    ^~~~~~~~~~~
+/usr/local/include/yaml.h:636:43: note: passing argument to parameter 'tag' here
+        yaml_char_t *anchor, yaml_char_t *tag, int implicit,
+                                          ^
+ext/_yaml.c:14009:13: warning: code will never be executed [-Wunreachable-code]
+  __pyx_r = 0;
+            ^
+ext/_yaml.c:13970:7: warning: code will never be executed [-Wunreachable-code]
+      goto __pyx_L62;
+      ^~~~~~~~~~~~~~
+ext/_yaml.c:13885:7: warning: code will never be executed [-Wunreachable-code]
+      goto __pyx_L61;
+      ^~~~~~~~~~~~~~
+ext/_yaml.c:13765:11: warning: code will never be executed [-Wunreachable-code]
+          goto __pyx_L58;
+          ^~~~~~~~~~~~~~
+ext/_yaml.c:13641:11: warning: code will never be executed [-Wunreachable-code]
+          goto __pyx_L54;
+          ^~~~~~~~~~~~~~
+ext/_yaml.c:13532:7: warning: code will never be executed [-Wunreachable-code]
+      goto __pyx_L50;
+      ^~~~~~~~~~~~~~
+ext/_yaml.c:13412:11: warning: code will never be executed [-Wunreachable-code]
+          goto __pyx_L47;
+          ^~~~~~~~~~~~~~
+ext/_yaml.c:13288:11: warning: code will never be executed [-Wunreachable-code]
+          goto __pyx_L43;
+          ^~~~~~~~~~~~~~
+ext/_yaml.c:13179:7: warning: code will never be executed [-Wunreachable-code]
+      goto __pyx_L39;
+      ^~~~~~~~~~~~~~
+ext/_yaml.c:12912:9: warning: code will never be executed [-Wunreachable-code]
+        goto __pyx_L36;
+        ^~~~~~~~~~~~~~
+ext/_yaml.c:12807:11: warning: code will never be executed [-Wunreachable-code]
+          goto __pyx_L33;
+          ^~~~~~~~~~~~~~
+ext/_yaml.c:12683:11: warning: code will never be executed [-Wunreachable-code]
+          goto __pyx_L29;
+          ^~~~~~~~~~~~~~
+ext/_yaml.c:12574:7: warning: code will never be executed [-Wunreachable-code]
+      goto __pyx_L25;
+      ^~~~~~~~~~~~~~
+ext/_yaml.c:12525:9: warning: code will never be executed [-Wunreachable-code]
+        goto __pyx_L24;
+        ^~~~~~~~~~~~~~
+ext/_yaml.c:12368:7: warning: code will never be executed [-Wunreachable-code]
+      goto __pyx_L20;
+      ^~~~~~~~~~~~~~
+ext/_yaml.c:12271:13: warning: code will never be executed [-Wunreachable-code]
+            goto __pyx_L18;
+            ^~~~~~~~~~~~~~
+ext/_yaml.c:12170:13: warning: code will never be executed [-Wunreachable-code]
+            goto __pyx_L15;
+            ^~~~~~~~~~~~~~
+ext/_yaml.c:11996:11: warning: code will never be executed [-Wunreachable-code]
+          goto __pyx_L10;
+          ^~~~~~~~~~~~~~
+ext/_yaml.c:14091:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L5;
+    ^~~~~~~~~~~~~
+ext/_yaml.c:14404:7: warning: code will never be executed [-Wunreachable-code]
+      goto __pyx_L10;
+      ^~~~~~~~~~~~~~
+ext/_yaml.c:14355:7: warning: code will never be executed [-Wunreachable-code]
+      goto __pyx_L9;
+      ^~~~~~~~~~~~~
+ext/_yaml.c:14307:7: warning: code will never be executed [-Wunreachable-code]
+      goto __pyx_L8;
+      ^~~~~~~~~~~~~
+ext/_yaml.c:14579:7: warning: code will never be executed [-Wunreachable-code]
+      goto __pyx_L6;
+      ^~~~~~~~~~~~~
+ext/_yaml.c:14505:7: warning: code will never be executed [-Wunreachable-code]
+      goto __pyx_L5;
+      ^~~~~~~~~~~~~
+ext/_yaml.c:15082:42: warning: assigning to 'yaml_char_t *' (aka 'unsigned char *') from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+      __pyx_v_tag_directives_end->handle = PyString_AS_STRING(__pyx_v_handle);
+                                         ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ext/_yaml.c:15183:42: warning: assigning to 'yaml_char_t *' (aka 'unsigned char *') from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+      __pyx_v_tag_directives_end->prefix = PyString_AS_STRING(__pyx_v_prefix);
+                                         ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ext/_yaml.c:15318:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L21;
+    ^~~~~~~~~~~~~~
+ext/_yaml.c:15254:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L20;
+    ^~~~~~~~~~~~~~
+ext/_yaml.c:15217:5: warning: code will never be executed [-Wunreachable-code]
+    goto __pyx_L19;
+    ^~~~~~~~~~~~~~
+ext/_yaml.c:15154:11: warning: code will never be executed [-Wunreachable-code]
+          goto __pyx_L18;
+          ^~~~~~~~~~~~~~
+ext/_yaml.c:15053:11: warning: code will never be executed [-Wunreachable-code]
+          goto __pyx_L15;
+          ^~~~~~~~~~~~~~
+ext/_yaml.c:14898:9: warning: code will never be executed [-Wunreachable-code]
+        goto __pyx_L10;
+        ^~~~~~~~~~~~~~
+ext/_yaml.c:14740:7: warning: code will never be executed [-Wunreachable-code]
+      goto __pyx_L6;
+      ^~~~~~~~~~~~~
+ext/_yaml.c:14683:7: warning: code will never be executed [-Wunreachable-code]
+      goto __pyx_L5;
+      ^~~~~~~~~~~~~
+ext/_yaml.c:15650:13: warning: code will never be executed [-Wunreachable-code]
+  __pyx_r = 0;
+            ^
+ext/_yaml.c:15863:64: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    __pyx_t_2 = (yaml_alias_event_initialize((&__pyx_v_event), __pyx_v_anchor) == 0);
+                                                               ^~~~~~~~~~~~~~
+/usr/local/include/yaml.h:555:63: note: passing argument to parameter 'anchor' here
+yaml_alias_event_initialize(yaml_event_t *event, yaml_char_t *anchor);
+                                                              ^
+ext/_yaml.c:16500:68: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+      __pyx_t_10 = (yaml_scalar_event_initialize((&__pyx_v_event), __pyx_v_anchor, __pyx_v_tag, __pyx_v_value, __pyx_v_length, __pyx_v_plain_implicit, __pyx_v_quoted_implicit, __pyx_v_scalar_style) == 0);
+                                                                   ^~~~~~~~~~~~~~
+/usr/local/include/yaml.h:581:22: note: passing argument to parameter 'anchor' here
+        yaml_char_t *anchor, yaml_char_t *tag,
+                     ^
+ext/_yaml.c:16500:84: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+      __pyx_t_10 = (yaml_scalar_event_initialize((&__pyx_v_event), __pyx_v_anchor, __pyx_v_tag, __pyx_v_value, __pyx_v_length, __pyx_v_plain_implicit, __pyx_v_quoted_implicit, __pyx_v_scalar_style) == 0);
+                                                                                   ^~~~~~~~~~~
+/usr/local/include/yaml.h:581:43: note: passing argument to parameter 'tag' here
+        yaml_char_t *anchor, yaml_char_t *tag,
+                                          ^
+ext/_yaml.c:16500:97: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+      __pyx_t_10 = (yaml_scalar_event_initialize((&__pyx_v_event), __pyx_v_anchor, __pyx_v_tag, __pyx_v_value, __pyx_v_length, __pyx_v_plain_implicit, __pyx_v_quoted_implicit, __pyx_v_scalar_style) == 0);
+                                                                                                ^~~~~~~~~~~~~
+/usr/local/include/yaml.h:582:22: note: passing argument to parameter 'value' here
+        yaml_char_t *value, int length,
+                     ^
+ext/_yaml.c:16790:76: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+      __pyx_t_10 = (yaml_sequence_start_event_initialize((&__pyx_v_event), __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_sequence_style) == 0);
+                                                                           ^~~~~~~~~~~~~~
+/usr/local/include/yaml.h:604:22: note: passing argument to parameter 'anchor' here
+        yaml_char_t *anchor, yaml_char_t *tag, int implicit,
+                     ^
+ext/_yaml.c:16790:92: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+      __pyx_t_10 = (yaml_sequence_start_event_initialize((&__pyx_v_event), __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_sequence_style) == 0);
+                                                                                           ^~~~~~~~~~~
+/usr/local/include/yaml.h:604:43: note: passing argument to parameter 'tag' here
+        yaml_char_t *anchor, yaml_char_t *tag, int implicit,
+                                          ^
+ext/_yaml.c:17193:75: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+      __pyx_t_10 = (yaml_mapping_start_event_initialize((&__pyx_v_event), __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_mapping_style) == 0);
+                                                                          ^~~~~~~~~~~~~~
+/usr/local/include/yaml.h:636:22: note: passing argument to parameter 'anchor' here
+        yaml_char_t *anchor, yaml_char_t *tag, int implicit,
+                     ^
+ext/_yaml.c:17193:91: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+      __pyx_t_10 = (yaml_mapping_start_event_initialize((&__pyx_v_event), __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_mapping_style) == 0);
+                                                                                          ^~~~~~~~~~~
+/usr/local/include/yaml.h:636:43: note: passing argument to parameter 'tag' here
+        yaml_char_t *anchor, yaml_char_t *tag, int implicit,
+                                          ^
+ext/_yaml.c:17400:13: warning: code will never be executed [-Wunreachable-code]
+  __pyx_r = 0;
+            ^
+ext/_yaml.c:17367:9: warning: code will never be executed [-Wunreachable-code]
+        goto __pyx_L44;
+        ^~~~~~~~~~~~~~
+ext/_yaml.c:17241:9: warning: code will never be executed [-Wunreachable-code]
+        goto __pyx_L41;
+        ^~~~~~~~~~~~~~
+ext/_yaml.c:17204:9: warning: code will never be executed [-Wunreachable-code]
+        goto __pyx_L40;
+        ^~~~~~~~~~~~~~
+ext/_yaml.c:17118:13: warning: code will never be executed [-Wunreachable-code]
+            goto __pyx_L38;
+            ^~~~~~~~~~~~~~
+ext/_yaml.c:16951:9: warning: code will never be executed [-Wunreachable-code]
+        goto __pyx_L33;
+        ^~~~~~~~~~~~~~
+ext/_yaml.c:16838:9: warning: code will never be executed [-Wunreachable-code]
+        goto __pyx_L30;
+        ^~~~~~~~~~~~~~
+ext/_yaml.c:16801:9: warning: code will never be executed [-Wunreachable-code]
+        goto __pyx_L29;
+        ^~~~~~~~~~~~~~
+ext/_yaml.c:16715:13: warning: code will never be executed [-Wunreachable-code]
+            goto __pyx_L27;
+            ^~~~~~~~~~~~~~
+ext/_yaml.c:16548:9: warning: code will never be executed [-Wunreachable-code]
+        goto __pyx_L22;
+        ^~~~~~~~~~~~~~
+ext/_yaml.c:16511:9: warning: code will never be executed [-Wunreachable-code]
+        goto __pyx_L21;
+        ^~~~~~~~~~~~~~
+ext/_yaml.c:16310:11: warning: code will never be executed [-Wunreachable-code]
+          goto __pyx_L19;
+          ^~~~~~~~~~~~~~
+ext/_yaml.c:16205:13: warning: code will never be executed [-Wunreachable-code]
+            goto __pyx_L16;
+            ^~~~~~~~~~~~~~
+ext/_yaml.c:15911:7: warning: code will never be executed [-Wunreachable-code]
+      goto __pyx_L9;
+      ^~~~~~~~~~~~~
+ext/_yaml.c:15874:7: warning: code will never be executed [-Wunreachable-code]
+      goto __pyx_L8;
+      ^~~~~~~~~~~~~
+ext/_yaml.c:15812:9: warning: code will never be executed [-Wunreachable-code]
+        goto __pyx_L6;
+        ^~~~~~~~~~~~~
+ext/_yaml.c:17526:13: warning: code will never be executed [-Wunreachable-code]
+  __pyx_r = 0;
+            ^
+ext/_yaml.c:20468:24: error: no member named 'exc_type' in 'struct _ts'
+    tmp_type = tstate->exc_type;
+               ~~~~~~  ^
+ext/_yaml.c:20469:25: error: no member named 'exc_value' in 'struct _ts'; did you mean 'curexc_value'?
+    tmp_value = tstate->exc_value;
+                        ^~~~~~~~~
+                        curexc_value
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/pystate.h:240:15: note: 'curexc_value' declared here
+    PyObject *curexc_value;
+              ^
+ext/_yaml.c:20470:22: error: no member named 'exc_traceback' in 'struct _ts'; did you mean 'curexc_traceback'?
+    tmp_tb = tstate->exc_traceback;
+                     ^~~~~~~~~~~~~
+                     curexc_traceback
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/pystate.h:241:15: note: 'curexc_traceback' declared here
+    PyObject *curexc_traceback;
+              ^
+ext/_yaml.c:20471:13: error: no member named 'exc_type' in 'struct _ts'
+    tstate->exc_type = local_type;
+    ~~~~~~  ^
+ext/_yaml.c:20472:13: error: no member named 'exc_value' in 'struct _ts'; did you mean 'curexc_value'?
+    tstate->exc_value = local_value;
+            ^~~~~~~~~
+            curexc_value
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/pystate.h:240:15: note: 'curexc_value' declared here
+    PyObject *curexc_value;
+              ^
+ext/_yaml.c:20473:13: error: no member named 'exc_traceback' in 'struct _ts'; did you mean 'curexc_traceback'?
+    tstate->exc_traceback = local_tb;
+            ^~~~~~~~~~~~~
+            curexc_traceback
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/pystate.h:241:15: note: 'curexc_traceback' declared here
+    PyObject *curexc_traceback;
+              ^
+ext/_yaml.c:20707:21: error: no member named 'exc_type' in 'struct _ts'
+    *type = tstate->exc_type;
+            ~~~~~~  ^
+ext/_yaml.c:20708:22: error: no member named 'exc_value' in 'struct _ts'; did you mean 'curexc_value'?
+    *value = tstate->exc_value;
+                     ^~~~~~~~~
+                     curexc_value
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/pystate.h:240:15: note: 'curexc_value' declared here
+    PyObject *curexc_value;
+              ^
+ext/_yaml.c:20709:19: error: no member named 'exc_traceback' in 'struct _ts'; did you mean 'curexc_traceback'?
+    *tb = tstate->exc_traceback;
+                  ^~~~~~~~~~~~~
+                  curexc_traceback
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/pystate.h:241:15: note: 'curexc_traceback' declared here
+    PyObject *curexc_traceback;
+              ^
+ext/_yaml.c:20718:24: error: no member named 'exc_type' in 'struct _ts'
+    tmp_type = tstate->exc_type;
+               ~~~~~~  ^
+ext/_yaml.c:20719:25: error: no member named 'exc_value' in 'struct _ts'; did you mean 'curexc_value'?
+    tmp_value = tstate->exc_value;
+                        ^~~~~~~~~
+                        curexc_value
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/pystate.h:240:15: note: 'curexc_value' declared here
+    PyObject *curexc_value;
+              ^
+ext/_yaml.c:20720:22: error: no member named 'exc_traceback' in 'struct _ts'; did you mean 'curexc_traceback'?
+    tmp_tb = tstate->exc_traceback;
+                     ^~~~~~~~~~~~~
+                     curexc_traceback
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/pystate.h:241:15: note: 'curexc_traceback' declared here
+    PyObject *curexc_traceback;
+              ^
+ext/_yaml.c:20721:13: error: no member named 'exc_type' in 'struct _ts'
+    tstate->exc_type = type;
+    ~~~~~~  ^
+ext/_yaml.c:20722:13: error: no member named 'exc_value' in 'struct _ts'; did you mean 'curexc_value'?
+    tstate->exc_value = value;
+            ^~~~~~~~~
+            curexc_value
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/pystate.h:240:15: note: 'curexc_value' declared here
+    PyObject *curexc_value;
+              ^
+ext/_yaml.c:20723:13: error: no member named 'exc_traceback' in 'struct _ts'; did you mean 'curexc_traceback'?
+    tstate->exc_traceback = tb;
+            ^~~~~~~~~~~~~
+            curexc_traceback
+/usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/pystate.h:241:15: note: 'curexc_traceback' declared here
+    PyObject *curexc_traceback;
+              ^
+168 warnings and 15 errors generated.
+error: Setup script exited with error: command 'clang' failed with exit status 1
