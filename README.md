@@ -17,7 +17,7 @@
 Medusa
 ======
 
-Medusa is an Apache Cassandra backup system.
+Medusa is an Apache Cassandra backup system. this patch support aliyun oss storage
 
 Features
 --------
@@ -40,11 +40,27 @@ Choose and initialize the storage system:
 * Local storage can be used in conjunction with NFS mounts to store backups off nodes.
 * [Google Cloud Storage setup](docs/gcs_setup.md)
 * [AWS S3 setup](docs/aws_s3_setup.md)
+* [aliyun oss setup](docs/aliyun_oss_setup.md)
 
 Install Medusa on each Cassandra node:
 
-* Either run `pip3 install cassandra-medusa`
-* or clone the github repo and run : `python3 setup.py install`
+* 获取libcloud源码
+```https://github.com/chenjiang1985/libcloud```
+
+* 获取cassandra-medusa源码
+```https://github.com/chenjiang1985/cassandra-medusa```
+
+* Install python3
+```sudo yum install python3-devel.x86_64 -y```
+
+* Install libcloud
+```cd libcloud && sudo python3 setup.py install```
+
+* Install cassandra-medusa依赖库
+```sudo yum install libev libev-devel libyaml-devel -y```
+
+* 从源码安装medusa
+```cd cassandra-medusa && sudo python3 setup.py install```
 
 Copy `/etc/medusa/medusa-example.ini` to `/etc/medusa/medusa.ini` and mofidy it to match your requirements:
 
@@ -59,7 +75,7 @@ Copy `/etc/medusa/medusa-example.ini` to `/etc/medusa/medusa.ini` and mofidy it 
 
 [storage]
 storage_provider = <Storage system used for backups>
-# storage_provider should be either of "local", "google_storage" or the s3_* values from
+# storage_provider should be either of "local", "google_storage", "aliyun_oss" or the s3_* values from
 # https://github.com/apache/libcloud/blob/trunk/libcloud/storage/types.py#L87-L105
 bucket_name = <Name of the bucket used for storing backups>
 key_file = <JSON key file for service account with access to GCS bucket or AWS credentials file (home-dir/.aws/credentials)>
