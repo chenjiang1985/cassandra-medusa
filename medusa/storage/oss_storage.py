@@ -35,7 +35,7 @@ class OSSStorage(AbstractStorage):
             oss_profile = self.config.api_profile
             profile = oss_config[oss_profile]
             cls = get_driver(self.config.storage_provider)
-            driver = cls(profile['accessKeyID'], profile['accessKeySecret'])
+            driver = cls(profile['endpoint'], profile['accessKeyID'], profile['accessKeySecret'])
             #driver.get_container
             return driver
 
