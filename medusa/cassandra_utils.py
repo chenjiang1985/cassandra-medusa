@@ -397,9 +397,9 @@ class Cassandra(object):
             return
 
     def start_with_implicit_token(self):
-        cmd = self._start_cmd
+        cmd = self._str_startcmd.format('')
         logging.debug('Starting Cassandra with {}'.format(cmd))
-        subprocess.check_output(cmd)
+        subprocess.check_output(cmd, shell=True)
 
     def start(self, token_list):
         if self._is_ccm == 0:
